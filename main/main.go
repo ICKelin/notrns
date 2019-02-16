@@ -1,6 +1,6 @@
 package main
 
-import "github.com/ICKelin/notr/notrns/ddns"
+import "github.com/ICKelin/notrns/ddns"
 
 func main() {
 	ddns.Main()
