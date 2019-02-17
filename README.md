@@ -36,6 +36,6 @@ Address: 120.25.214.69
 
 ## 致谢
 
-- [bolt db](github.com/boltdb/bolt)
+- [bolt db](https://github.com/boltdb/bolt)
 
-- [miekg dns](github.com/miekg/dns)
+- [miekg dns](https://github.com/miekg/dns)
