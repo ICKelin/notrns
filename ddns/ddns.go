@@ -50,6 +50,8 @@ func NewDDNS(cfg *DDNSConfig, s *Store) (*DDNS, error) {
 }
 
 func (d *DDNS) Run() {
+	defer d.conn.Close()
+
 	LogInfo("ddns server listening on %s", d.addr)
 
 	go func() {
